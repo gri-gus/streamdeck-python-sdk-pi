@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools >= 60.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamdeck_sdk_pi"
+version = "0.0.1.dev2"
+authors = [
+    { name = "Grigoriy Gusev", email = "thegrigus@gmail.com" },
+]
+description = "Library for creating Stream Deck Property Inspector in Python."
+readme = "README-PYPI.md"
+dependencies = []
+requires-python = ">=3.8"
+keywords = [
+    "property inspector",
+    "property inspector generator",
+    "streamdeck property inspector generator",
+    "streamdeck property inspector",
+    "streamdeck pi",
+    "python",
+    "sdk",
+    "streamdeck",
+    "streamdeck-sdk",
+    "streamdeck_sdk",
+    "stream deck sdk",
+    "stream deck",
+    "elgato",
+    "elgato sdk",
+    "elgato stream deck",
+    "streamdeck-python-sdk",
+    "streamdeck_python_sdk",
+    "streamdeck python sdk",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gri-gus/streamdeck-python-sdk-pi"
+Source = "https://github.com/gri-gus/streamdeck-python-sdk-pi"
+
+[tool.setuptools.packages.find]
+where = ["src"]
